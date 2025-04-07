@@ -20,7 +20,16 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* ✅ ✅ Alias 설정 추가 */
+    "baseUrl": ".",
+    "paths": {
+      "@features/*": ["src/features/*"],
+      "@components/*": ["src/components/*"],
+      "@types/*": ["src/types/*"],
+      "@lib/*": ["src/lib/*"]
+    }
   },
   "include": ["src"]
 }

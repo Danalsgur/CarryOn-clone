@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
-import BuyerRequestCard from './BuyerRequestCard'
+import BuyerRequestCard from '../features/request/components/RequestCard'
 
 interface Request {
   id: number
