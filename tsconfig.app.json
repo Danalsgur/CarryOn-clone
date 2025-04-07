@@ -27,7 +27,7 @@
     "paths": {
       "@features/*": ["src/features/*"],
       "@components/*": ["src/components/*"],
-      "@types/*": ["src/types/*"],
+      "@models/*": ["src/types/*"],
       "@lib/*": ["src/lib/*"]
     }
   },
