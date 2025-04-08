@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
-import CarrierRequestCard from '../features/carrier/components/CarrierCard'
+import CarrierRequestCard from './CarrierRequestCard.tsx'
 
 interface Request {
   id: number

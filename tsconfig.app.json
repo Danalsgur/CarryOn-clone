@@ -25,9 +25,7 @@
     /* ✅ ✅ Alias 설정 추가 */
     "baseUrl": ".",
     "paths": {
-      "@features/*": ["src/features/*"],
       "@components/*": ["src/components/*"],
-      "@models/*": ["src/types/*"],
       "@lib/*": ["src/lib/*"]
     }
   },
